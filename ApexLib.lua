@@ -3,7 +3,6 @@ ApexLib.__index = ApexLib
 ApexLib.Version = "1.0.0"
 ApexLib.Author = "Teapokk"
 ApexLib.BuildDate = os.date("%Y-%m-%d")
-ApexLib.Proxy = "apexproxy.vercel.app"
 ApexLib.Github = "https://github.com/Teapokk/ApexLib"
 
 -- Services
@@ -573,6 +572,7 @@ ThemeSystem.Themes.Dracula = {
     
     Shadow = Color3.fromRGB(0, 0, 0),
     Overlay = Color3.fromRGB(0, 0, 0),
+    Graphite = Color3.fromRGB(40, 40, 45),
 }
 
 -- Get Current Theme
